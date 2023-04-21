@@ -1,0 +1,21 @@
+{
+  "name": "login_singup",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start":"nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "prashant",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "connect-mongo":"^4.6.0",
+    "mongoose": "^7.0.4",
+    "cookie-parser":"^1.4.6",
+    "express-session":"^1.17.3",
+    "cors":"^2.8.5",
+    "body-parser":"^1.20.1"
+  }
+}
